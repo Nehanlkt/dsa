@@ -43,8 +43,8 @@ void vectors()
     // cout << *(it) << " ";
 
     // to print last elem 
-    //  vector<int> v4;
-    // v4 = {2, 6, 5, 7, 2};
+     vector<int> v4;
+    v4 = {2, 6, 5, 7, 2};
     // vector<int>::iterator it;
     // it=v4.end();
     // it --;
@@ -55,7 +55,23 @@ void vectors()
     // for(auto z:v4){
     //     cout<<z<<" ";
     // }
-    
+
+    // to erase
+    // v4.erase(v4.begin()+1);
+    // for(auto z:v4){
+    //     cout<<z<<" ";
+    // }   //deleted only one elem
+
+
+    // to delete more elem start,end but end not included
+     v4.erase(v4.begin()+1,v4.end()-2);
+    for(auto z:v4){
+        cout<<z<<" ";
+    }  
+
+
+
+
 
     
 
