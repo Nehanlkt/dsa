@@ -94,7 +94,6 @@ void primecheck(int N){
 }
 
 
-
 int main()
 {
     freopen("input.txt", "r", stdin);
