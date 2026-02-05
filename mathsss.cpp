@@ -77,6 +77,23 @@ void divisors1(int N){
 
 }
 
+void primecheck(int N){
+    int cntt=0;
+    for(int i=1;i*i<=N;i++){
+        if(N%i==0){
+           cntt++;
+            if((N/i)!=i){
+            cntt++;
+        }
+    }
+        
+        
+    }
+    if(cntt==2)cout<<"true";
+    else cout<<"false";
+}
+
+
 
 int main()
 {
@@ -93,6 +110,8 @@ int main()
         // reversing(N);
         // checkpalindrome(N);
         // divisors(N);
-        divisors1(N);
+        // divisors1(N);
+        primecheck(N);
+
     }
 }
