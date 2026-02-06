@@ -11,7 +11,7 @@ int main(){
         cin>>arr[i];
     }
     // precompilation
-    int hash[1000001]={0};
+    int hash[13]={0};
     for(int i=0;i<n;i++){
         hash[arr[i]]+=1;
     }
