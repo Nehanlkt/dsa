@@ -115,4 +115,4 @@ int main()
     }
 }
 
-// armstrong num need to
+// armstrong num need to be
