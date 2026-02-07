@@ -77,7 +77,7 @@ void divisors1(int N){
 
 }
 
-void primecheck(int N){
+void primechecker(int N){
     int cntt=0;
     for(int i=1;i*i<=N;i++){
         if(N%i==0){
@@ -110,7 +110,9 @@ int main()
         // checkpalindrome(N);
         // divisors(N);
         // divisors1(N);
-        primecheck(N);
+        primechecker(N);
 
     }
 }
+
+// armstrong num
