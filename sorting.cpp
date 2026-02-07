@@ -66,7 +66,7 @@ void mergesort(arr[],low,high){
 void merge(vector<int>& arr, int low, int mid, int high) {
     vector<int> temp
     int left=low;
-    iright=mid+1;
+    int right=mid+1;
     while(left<=mid&&right<=high){
         if(arr[left]<=arr[right])
           temp.add(arr[left])
