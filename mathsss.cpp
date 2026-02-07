@@ -20,7 +20,7 @@ void cntnum1(int N)
     cout << cnt1 << endl;
 }
 
-void reversing(int N)
+void reversingnum(int N)
 {
     int revnum = 0;
     int lastdigit1;
@@ -106,11 +106,11 @@ int main()
         cin >> N;
         // cntnum(N);
         // cntnum1(N);
-        // reversing(N);
+        // reversingnum(N);
         // checkpalindrome(N);
         // divisors(N);
         // divisors1(N);
-        primechecker(N);
+        // primechecker(N);
 
     }
 }
